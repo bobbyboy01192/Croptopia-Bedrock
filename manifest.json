@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Croptopia (Behavior Pack)",
+    "description": "A port of Croptopia to Bedrock Edition. (v4.3.10)",
+    "uuid": "b77572b7-358b-5eed-8cdf-01b9ba40966c",
+    "version": [
+      4,
+      3,
+      10
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "363338a0-f1ac-5869-bafa-0addc6724fc7",
+      "version": [
+        4,
+        3,
+        10
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "08c3523d-e96b-5562-a3ff-1acea0cf0148",
+      "version": [
+        4,
+        3,
+        10
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "903060cb-63db-55ae-b862-1b815e0b9ecb",
+      "version": [
+        4,
+        3,
+        10
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
